@@ -6,11 +6,13 @@ drone.connect()
 
 drone.take_off()
 
-# drone.move_forward(80)
+drone.set_speed(50)
+drone.move_forward(150)
 # time.sleep(2)
 # drone.move_backward(50)
 # time.sleep(2)
-drone.rotate(5)
+# drone.rotate(5)
+
 
 
 drone.land()
